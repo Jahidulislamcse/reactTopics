@@ -1,13 +1,12 @@
-import logo from './logo.svg';
-import './App.css';
-import Card1 from './Components/Card1';
-import Card2 from './Components/Card2';
+import logo from "./logo.svg";
+import "./App.css";
+import Card1 from "./Components/Card1";
+import Card2 from "./Components/Card2";
 import { FaApple, FaAws } from "react-icons/fa";
-import ReactBootstrap from './Components/React-Bootstrap/ReactBootstrap';
+import ReactBootstrap from "./Components/React-Bootstrap/ReactBootstrap";
 // import 'bootstrap/dist/css/bootstrap.min.css';
-import STATE from './STATE'
-import EVENT_HANDLER_CLASS from './EVENT-HANDLER-CLASS/index'
-
+import STATE from "./STATE";
+import EVENT_HANDLER_CLASS from "./EVENT-HANDLER-CLASS/index";
 
 // function App() {
 //   return (
@@ -33,11 +32,6 @@ import EVENT_HANDLER_CLASS from './EVENT-HANDLER-CLASS/index'
 
 // export default App;
 
-
-
-
-
-
 // import React from 'react'
 
 // export default function App() {
@@ -59,7 +53,6 @@ import EVENT_HANDLER_CLASS from './EVENT-HANDLER-CLASS/index'
 //   )
 // }
 
-
 // import React from 'react'
 // import HOOKS_USE_STATE from './HOOKS_USE_STATE/index'
 // import HOOKS_USE_STATE1 from './HOOKS_USE_STATE/index2'
@@ -73,21 +66,28 @@ import EVENT_HANDLER_CLASS from './EVENT-HANDLER-CLASS/index'
 //   )
 // }
 
-import React from 'react'
-import Child from './STATE_LIFTING/child';
+import React from "react";
+import Child from "./STATE_LIFTING/child";
+import Ground from "./STATE_LIFTING/Ground";
+import Todos from './TODO_APP/Todos'
+import Todo from './TODO_APP/Todo'
+import Home from './TODO_APP/Home'
 
 export default function App() {
-  const data = 'I am from parent'
+  // const data = "I am from parent";
 
-  const handleChildData = (childData) =>{
-    console.log(childData)
-  }
+  // const handleChildData = (childData) => {
+  //   console.log(childData);
+  // };
 
   return (
     <div>
-      <Child data2={data} onChangeChildData={handleChildData} />
+      {/* <Child data2={data} onChangeChildData={handleChildData} />
+      <Ground /> */}
+      {/* <Todos />
+      <Todo /> */}
+      <Home />
+      
     </div>
-  )
+  );
 }
-
-
