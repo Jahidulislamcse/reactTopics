@@ -69,10 +69,12 @@ import EVENT_HANDLER_CLASS from "./EVENT-HANDLER-CLASS/index";
 import React from "react";
 import Child from "./STATE_LIFTING/child";
 import Ground from "./STATE_LIFTING/Ground";
-import Todos from './TODO_APP/Todos'
-import Todo from './TODO_APP/Todo'
-import Home from './TODO_APP/Home'
-
+import Todos from "./TODO_APP/Todos";
+import Todo from "./TODO_APP/Todo";
+import Home from "./TODO_APP/Home";
+import SignupFormik from "./Components/SignupFormik";
+import DataFetch from "./HOOKS/DataFetch";
+import FAQ from "./FAQ/FAQS";
 export default function App() {
   // const data = "I am from parent";
 
@@ -86,8 +88,10 @@ export default function App() {
       <Ground /> */}
       {/* <Todos />
       <Todo /> */}
-      <Home />
-      
+      {/* <Home /> */}
+      {/* <SignupFormik  /> */}
+      {/* <DataFetch />       */}
+      <FAQ />
     </div>
   );
 }
