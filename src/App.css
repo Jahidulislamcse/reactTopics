@@ -1,4 +1,4 @@
-.App {
+/* .App {
   text-align: center;
 }
 
@@ -35,4 +35,24 @@
   to {
     transform: rotate(360deg);
   }
+} */
+
+
+input {
+  padding: 0.6rem;
+  border-radius:  0.6rem;
+  width: 20rem;
+  font-size: 1.2rem;
+
+}
+
+input:focus {
+  background-color: bisque;
+}
+
+h1 {
+  margin-top: 2rem;
+  text-align: center;
+  font-size: 3rem;
+
 }

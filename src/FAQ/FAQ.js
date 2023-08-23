@@ -20,4 +20,4 @@ const FAQ = ({ id, title, desc }) => {
   );
 };
 
-export default FAQ;
+export default FAQ;   
