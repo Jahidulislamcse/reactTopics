@@ -3,7 +3,7 @@ import {v4 as uuidv4} from 'uuid';
 import Country from './Country';
 import style from './countries.module.css'
 
-
+ 
 const Countries = (props) => {
   return (
     <section className={style.countries}>

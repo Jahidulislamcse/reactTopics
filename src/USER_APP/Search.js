@@ -13,12 +13,11 @@ const Search = (props) => {
 
   return (
     <div style={{textAlign:'center'}}>
-      <input type='text' placeholder='Search Country'
+      <input type='text' placeholder='Search User'
       value={searchText}
       onChange={handleChange} />
     </div>
   )
 }
-
 
 export default Search

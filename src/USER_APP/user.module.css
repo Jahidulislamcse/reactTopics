@@ -1,0 +1,28 @@
+.user {
+  background-color: #34465e;
+  color: white;
+  display: flex;
+  justify-content: center;
+  padding: 1rem;
+  align-items: center;
+  border-radius: 0.6rem;
+  transition: all 0.3s;
+}
+
+.user:hover {
+  transform: scale(1.1);
+}
+
+.btn {
+  border: none;
+  border-radius: 0.6rem;
+  padding: 0.6rem;
+  cursor: pointer;
+  background-color: orange;
+  transition: all 0.3s;
+}
+
+.btn:hover {
+  background-color: red;
+  color: white;
+}

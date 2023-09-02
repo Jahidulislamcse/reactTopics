@@ -1,0 +1,18 @@
+.users {
+    padding: 3rem;
+    display:  grid;
+    gap: 2rem;
+    text-align: center;
+}
+
+@media screen and (min-width: 768px) {
+    .users {
+        grid-template-columns: auto auto;
+    }
+}
+
+@media screen and (min-width: 992px){
+    .users {
+        grid-template-columns: auto auto auto;
+    }
+}
